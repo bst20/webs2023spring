@@ -1,0 +1,27 @@
+/***** Main menu styling *****/
+.main-nav {
+    background-color: #eee; /* light gray */
+  }
+
+  .main-nav a {
+    color: #4b8568;         /* dark green */
+  }
+
+  .main-nav ul {
+    list-style-type: none;  /* Hide the bullets */
+    display: flex;          /* Arrange horizontally, not vertically */
+  }
+
+  .main-nav li {
+    padding: 1em 2em;           /* Add a little space around each link */
+  }
+
+  .main-nav .active {
+    background-color: #4b8568;  /* dark green, same as link color */
+  }
+
+  .main-nav .active a {
+    color: #eee;            /* light gray, same as navbar */
+  }
+
+  /* etc */
