@@ -1,10 +1,10 @@
 /***** Main menu styling *****/
 .main-nav {
-    background-color: #eee; /* light gray */
+    background-color: #E9EAEC; /* pewter*/
   }
 
   .main-nav a {
-    color: #4b8568;         /* dark green */
+    color: #870A30;         /* burgundy */
   }
 
   .main-nav ul {
@@ -17,11 +17,45 @@
   }
 
   .main-nav .active {
-    background-color: #4b8568;  /* dark green, same as link color */
+    background-color: #870A30;  /* burgundy, same as link color */
   }
 
   .main-nav .active a {
-    color: #eee;            /* light gray, same as navbar */
+    color: #E9EAEC;            /* pewter, same as navbar */
   }
 
-  /* etc */
+  .page {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Mobile Styles */
+  @media only screen and (max-width: 400px) {
+    body {
+      background-color: #E9EAEC; /* Red */
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #E9EAEC; /* Yellow */
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: #E9EAEC; /* Blue */
+    }
+  }
