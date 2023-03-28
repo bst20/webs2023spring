@@ -11,11 +11,23 @@
   }
   
   
-  h1, h2, h3, h4, h5, h6 {
+  h1 {
+    line-height: 1.3em;
+    font-weight: normal;
+    font-style: normal;
+    color: #EFE7BC; 
+  } 
+  h2 {
     line-height: 1.3em;
     font-weight: normal;
     font-style: normal;
     color: #870A30;
+  }
+  h3, h4, h5, h6 {
+    line-height: 3em;
+    font-weight: normal;
+    font-style: bold;
+    color: #EFE7BC;
   }
   
   header {
@@ -81,7 +93,7 @@
   .hero {
     padding-top: 9em;
     padding-bottom: 9em;
-    background-color: #EFE7BC;
+    background-color: #590D11;
   }
   
   .hero h1 {
@@ -100,7 +112,7 @@
     justify-content: center;
   }
   
-  .section-definition {
+  .section-section {
     width: 900px;
     display: flex;
     justify-content: center;  
@@ -109,12 +121,7 @@
     align-items: center;
   }
 
-  .horizontal centered {
-    width: 900px;
-    display: flex;
-    justify-content: center;  
-    flex-wrap: wrap
-  }
+
 
   .images {
     width: 900px;
@@ -168,13 +175,13 @@
   .button:hover,
   .button:visited:hover {
     color: #F6F4F0;
-    background-color: #23424A;
+    background-color: #57A5B8;
   }
   
   .button:active,
   .button:visited:active {
     color: #FFF;
-    background-color: #23424A;
+    background-color: #57A5B8;
   }
   
   .flex-container {
@@ -183,10 +190,41 @@
     padding: 20px 0;
     display: flex;
     justify-content: space-around;
-    border: 5px solid #EFE7BC
+    border: 5px solid #EFE7BC;
+    align-items:center;
   }
-  
-  
+  .flexbox-container {
+    color: #fff;
+    background-color: #590D11; 
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid #EFE7BC;
+    align-items: center;
+  }
+  .flex-containertime {
+    color: #fff;
+    background-color: #57A5B8; 
+    text-align: center;
+    text-decoration-color: #EFE7BC;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid #EFE7BC;
+    align-items:center;
+  }
+
+  .flex-containertime2 {
+    color: #fff;
+    background-color: #590D11; 
+    text-align: center;
+    text-decoration-color: #EFE7BC;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid #EFE7BC;
+    align-items:center;
+  }
   @media only screen and (min-width: 580px) {
     .section {
       margin: 4em auto;
