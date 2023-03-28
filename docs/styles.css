@@ -99,6 +99,17 @@
   .hero h1 {
     font-size: 50px;
   }
+
+  .hero-2 {
+    padding-top: 9em;
+    padding-bottom: 9em;
+    background-color: #57A5B8;
+  }
+
+  .hero-2 h2 {
+    font-size: 20px;
+  }
+  
   
   .header-container {
     color: #5995DA;
