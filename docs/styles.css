@@ -3,7 +3,7 @@
   src: url('Montserrat-Regular.otf') format('otf');
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,8 +21,8 @@
 
   h1 {
     line-height: 1.3em;
-    font-weight: Montserrat-ExtraBoldItalic;
-    font-style: Montserrat-ExtraBoldItalic;
+    font-weight: Otama-ep;
+    font-style: Otama-ep;
     color: #EFE7BC; 
   } 
   h2 {
@@ -93,14 +93,14 @@
   nav a:visited:hover,
   nav a:active,
   nav a:visited:active {
-    color: #23424A;
+    color: #B1D4E0;
     text-decoration: underline;
   }
   
   
   .hero {
     padding-top: 9em;
-    padding-bottom: 9em;
+    padding-bottom: .5em;
     background-color: #590D11;
   }
   
@@ -111,9 +111,12 @@
   .hero-2 {
     padding-top: 9em;
     padding-bottom: 9em;
-    background-color: #57A5B8;
+    background-color: #590D11;
   }
 
+  .hero-2 h1 {
+    font-size: 50px;
+  }
   .hero-2 h2 {
     font-size: 20px;
   }
@@ -121,7 +124,7 @@
   
   .header-container {
     color: #5995DA;
-    background-color: #F6F4F0;
+    background-color: #EFE7BC;
     display: flex;
     justify-content: center;
   }
@@ -157,7 +160,7 @@
   }
   
   .section h2 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: .7em;
   }
 
@@ -167,12 +170,12 @@
     color: #FFF;
     background-color: #590D11;   
     font-weight: bold;
-    padding: 20px;
+    padding: 2px;
     text-align: center;
     border: 2px solid #EFE7BC;   
     border-radius: 5px;
   
-    width: 200px;
+    width: 600px;
     margin: 20px auto;
   }
 
@@ -184,7 +187,7 @@
     color: #F6F4F0;
     background-color: #590D11;
     font-weight: bold;
-    padding: 10px;
+    padding: 3px;
     border-radius: 5px;
     text-align: center;
   
@@ -206,18 +209,22 @@
   .flex-container {
     color: #fff;
     background-color: #57A5B8;  /* Blue */
-    padding: 20px 0;
+    padding: 1px 0;
+    padding-left: 2em;
+    padding-right: 2em;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border: 5px solid #EFE7BC;
     align-items:center;
   }
   .flexbox-container {
     color: #fff;
     background-color: #590D11; 
-    padding: 20px 0;
+    padding: 1px 0;
+    padding-left: 2em;
+    padding-right: 2em;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border: 5px solid #EFE7BC;
     align-items: center;
   }
@@ -238,6 +245,18 @@
     background-color: #590D11; 
     text-align: center;
     text-decoration-color: #EFE7BC;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid #EFE7BC;
+    align-items:center;
+  }
+
+  .flex-containertime3 {
+    color: #fff;
+    background-color: #EFE7BC; 
+    text-align: center;
+    text-decoration-color: #590D11;
     padding: 20px 0;
     display: flex;
     justify-content: space-around;
