@@ -165,15 +165,16 @@
   }
 
 .button {
-    display: inline-block;
+    display: flex;
     justify-content: center;
     color: #FFF;
     background-color: #590D11;   
     font-weight: bold;
-    padding: 2px;
+    padding: 20px;
     text-align: center;
     border: 2px solid #EFE7BC;   
     border-radius: 5px;
+
   
     width: 600px;
     margin: 20px auto;
@@ -206,6 +207,22 @@
     background-color: #57A5B8;
   }
   
+  a:link,
+  a:visited,
+  a:active {
+    color: #EFE7BC;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #590D11;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  
+
   .flex-container {
     color: #fff;
     background-color: #57A5B8;  /* Blue */
